@@ -1,29 +1,32 @@
 # React Tailwind Landing Page (Learning Project)
 
-A simple, responsive landing page built with React, Tailwind CSS and Vite. This repository is a learning project and is not a finished product — it's intended to practice and demonstrate concepts, so some features and UX polish are intentionally incomplete.
+A minimal landing page built with React, Vite and Tailwind CSS for learning and experimentation. This repository is a work in progress and is not a completed production-ready project.
 
-## Quick links
+Status
 
-- Entry: [index.html](index.html)
-- App root: [`App`](src/App.jsx) ([src/App.jsx](src/App.jsx))
-- Main: [src/main.jsx](src/main.jsx)
-- Components:
-  - [`Navbar`](src/components/Navbar.jsx) ([src/components/Navbar.jsx](src/components/Navbar.jsx))
-  - [`HeroSection`](src/components/HeroSection.jsx) ([src/components/HeroSection.jsx](src/components/HeroSection.jsx))
-  - [`FeatureSection`](src/components/FeatureSection.jsx) ([src/components/FeatureSection.jsx](src/components/FeatureSection.jsx))
-  - [`WorkflowSection`](src/components/WorkflowSection.jsx) ([src/components/WorkflowSection.jsx](src/components/WorkflowSection.jsx)) — uses [`checklistItems`](src/constants/index.jsx) ([src/constants/index.jsx](src/constants/index.jsx)) and the asset [src/assets/code.jpg](src/assets/code.jpg).
-- Project config: [package.json](package.json), [vite.config.js](vite.config.js)
+- Learning / WIP — incomplete features, no tests, and not optimized.
 
-## Tech stack
+Highlights
 
-- React
+- Simple landing layout with components:
+  - [HeroSection](src/components/HeroSection.jsx)
+  - [FeatureSection](src/components/FeatureSection.jsx)
+  - [WorkflowSection](src/components/WorkflowSection.jsx) (uses [`checklistItems`](src/constants/index.jsx))
+  - [Navbar](src/components/Navbar.jsx)
+
+Tech stack
+
+- React + Vite
 - Tailwind CSS
-- Vite
-- lucide-react (icons)
+- Lucide icons
 
-## Local setup
+Get started
 
 1. Install dependencies:
    ```sh
    npm install
+   ```
+2. Run project:
+   ```sh
+   npm run dev
    ```
