@@ -1,4 +1,5 @@
 import FeatureSection from "./components/FeatureSection";
+import FooterSection from "./components/FooterSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import WorkflowSection from "./components/WorkflowSection";
@@ -11,6 +12,7 @@ function App() {
         <HeroSection />
         <FeatureSection />
         <WorkflowSection />
+        <FooterSection />
       </div>
     </>
   );
