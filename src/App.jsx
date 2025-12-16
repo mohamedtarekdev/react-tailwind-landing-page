@@ -12,8 +12,8 @@ function App() {
         <HeroSection />
         <FeatureSection />
         <WorkflowSection />
-        <FooterSection />
       </div>
+      <FooterSection />
     </>
   );
 }
