@@ -1,32 +1,75 @@
-# React Tailwind Landing Page (Learning Project)
+# React Tailwind Landing Page
 
-A minimal landing page built with React, Vite and Tailwind CSS for learning and experimentation. This repository is a work in progress and is not a completed production-ready project.
+A minimal landing page built with React, Vite and Tailwind CSS for learning and experimentation. This repository is a work-in-progress and is not a completed production-ready project.
 
-Status
+## Status
 
-- Learning / WIP — incomplete features, no tests, and not optimized.
+- **Learning / WIP** — incomplete features, limited tests, and not optimized.
 
-Highlights
-
-- Simple landing layout with components:
-  - [HeroSection](src/components/HeroSection.jsx)
-  - [FeatureSection](src/components/FeatureSection.jsx)
-  - [WorkflowSection](src/components/WorkflowSection.jsx) (uses [`checklistItems`](src/constants/index.jsx))
-  - [Navbar](src/components/Navbar.jsx)
-
-Tech stack
-
-- React + Vite
-- Tailwind CSS
-- Lucide icons
-
-Get started
+## Quick Start
 
 1. Install dependencies:
    ```sh
    npm install
    ```
-2. Run project:
+2. Run development server:
    ```sh
    npm run dev
    ```
+3. Build for production:
+   ```sh
+   npm run build
+   ```
+4. Preview production build:
+   ```sh
+   npm run preview
+   ```
+
+## Tech Stack
+
+- React + Vite
+- Tailwind CSS
+- Lucide icons
+
+## Main Components
+
+- src/components/HeroSection.jsx
+- src/components/FeatureSection.jsx
+- src/components/WorkflowSection.jsx
+- src/components/FooterSection.jsx
+
+## FooterSection (summary)
+
+Located at `src/components/FooterSection.jsx`. The footer includes:
+
+- Logo and brand name
+- Links (Privacy Policy, Terms of Use)
+- Contact email
+- Social media icons (Facebook, YouTube)
+- Sign In / Create Account actions
+
+## Files to Inspect
+
+- index.html
+- package.json
+- vite.config.js
+- src/main.jsx
+- src/App.jsx
+- src/index.css
+- src/constants/index.jsx
+- src/assets/\*
+
+## Notes / TODO
+
+- Improve responsive layout and accessibility
+- Add unit/integration tests
+- Finalize copy, imagery and performance optimizations
+- Add CI and a license if making public
+
+## Contributing
+
+This repository is primarily for learning. Contributions are welcome but please keep changes small and focused.
+
+## License
+
+No license specified.
