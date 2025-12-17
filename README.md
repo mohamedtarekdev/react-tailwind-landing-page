@@ -38,16 +38,6 @@ A minimal landing page built with React, Vite and Tailwind CSS for learning and 
 - src/components/WorkflowSection.jsx
 - src/components/FooterSection.jsx
 
-## FooterSection (summary)
-
-Located at `src/components/FooterSection.jsx`. The footer includes:
-
-- Logo and brand name
-- Links (Privacy Policy, Terms of Use)
-- Contact email
-- Social media icons (Facebook, YouTube)
-- Sign In / Create Account actions
-
 ## Files to Inspect
 
 - index.html
